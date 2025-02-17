@@ -1,0 +1,244 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 1000vh;
+    overflow: auto;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menuCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #969696;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.menuCenter div {
+    padding: 26px 15px 35px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menuCenter div:hover {
+    color: black;
+}
+
+.menuCenter p {
+    margin: 0;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    padding: 5px;
+}
+
+.motoBike {
+    background-image: url(https://donchicken.vn/pub/static/version1699371716/frontend/Alothemes/pizzaro3/en_US/images/alothemes/cart.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #cccac8;
+    border-radius: 50%;
+}
+
+.outMotoBike {
+    padding: 10px 10px 6px;
+    display: flex;
+}
+
+.money {
+    font-size: 15px;
+    color: #262626;
+    font-weight: bold;
+}
+
+.language {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(https://donchicken.vn/pub/static/version1699371716/frontend/Alothemes/pizzaro3/en_US/images/flags/english_3.jpg);
+    background-position: 0 63%;
+    background-repeat: no-repeat;
+    line-height: normal;
+    padding: 0 0 0 23px;
+    font-size: 14px;
+    color: #666;
+}
+
+.language i {
+    margin-left: 5px;
+}
+
+.login img {
+    width: 30px;
+    height: 30px;
+}
+
+.menuRight {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.money {
+    margin: 11.2px 0 0 0;
+}
+
+.outUnderHead {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #e9e9e9;
+    margin-bottom: 30px;
+}
+
+.underHead {
+    width: 1200px;
+    height: 26.43px;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    color: #333e48;
+}
+
+.underHead i {
+    display: inline-block;
+    transform: scaleX(0.6);
+    color: #d5d5d5;
+    padding-right: 10px;
+}
+
+.underHead a {
+    color: #333e48;
+    padding-right: 13px;
+    text-decoration: none;
+}
+.underHead a:hover{
+    color: #ff8c00;
+}
+
+.underHead p {
+    padding: 0 13px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 15px;
+    height: 1050vh;
+}
+
+.menuLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 180px;
+    height: 355.6px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 25px 15px 0;
+}
+.menuLeft a{
+    display: flex;
+    align-items: center;
+    color: #333;
+    width: 165px;
+    height: 50px;
+    text-decoration: none;
+    border-bottom: 1px solid #e9e9e9;
+    padding-left: 15px;
+}
+.menuLeft a:hover{
+    color: #D75A56;
+}
+.menuLeft #menu{
+    padding: 0;
+    width: 180px;
+}
+.menuLeft #newMenu{
+    color: #ff8c00;
+    font-weight: bold;
+}
+.center p{
+    padding: 0 15px;
+    font-weight: 400px;;
+    color: #333;
+    display: flex;
+}
+.center a{
+    display: flex;
+    justify-content: center;
+    color: #333;
+    text-decoration: none;
+}
+.center a:hover{
+    color: #ff8c00;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+    font-size: 17px;
+}
+.product img{
+    width: 222px;
+    height: 222px;
+}
+.center #head{
+    font-size: 25px;
+}
+.inProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 7px;
+    margin: 5px 0 0;
+}
+.bot{
+    background-color: #262626;
+    width: 100%;
+    height: 450px;
+}
+.productMenu{
+
+}
+.newMenu {
+    display: flex;
+    height: 330px;
+}
+#head {
+    margin: 0 0 10px 0;
+}
+.checkout{
+    background-color: #ff8c00;
+    width: 250px;
+    height: 175px;
+    border: 1px solid #cccac8;
+}
